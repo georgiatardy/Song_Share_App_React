@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 //Imports styling//
 import '../styles/App.css';
 
-//Imports PlayList, PlayListForm, and NavBar//
+//Imports PlayList, PlayListForm, and NavBar Components//
 import PlayList from './PlayList.js';
 import PlayListForm from './PlayListForm';
 import NavBar from './NavBar';
@@ -12,11 +12,9 @@ import NavBar from './NavBar';
 class App extends Component {
   render() {
     return (
-      <div className="Main_Container">
-       <div>
+      <div>
         <NavBar />
-       </div>
-       <div className="List-Form">
+      <div className="main_page">
         <PlayList />
         <PlayListForm />
        </div>
